@@ -25,6 +25,7 @@ pip install -r backend/requirements.txt
 
 ## app.py:
 > Loads the db created in above step,
-> Receives the user's query and contextualizes it with the chat_history 
+
+> Receives the user's query and contextualizes it with the chat_history, 
 > Retrives the matching content and sends final query to gpt server
 
