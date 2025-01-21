@@ -2,10 +2,7 @@
 
 [![](https://billionapps.net/wp-content/uploads/2023/11/BillionApps.svg)](https://billionapps.net/)
 
-## Soure code for AI chatbots.
-We have changes for chatbot projects, check the folders for more information.
-
-## Soure code for AI chatbots - in BillionApps folder.
+## Soure code for AI chatbot
 Here is simple chatbot using OpenAI's gpt3.5, built directly in JS.
 Download the folder and open the index.html file to know more about the bot, asking questions relating to BillionApps
 
