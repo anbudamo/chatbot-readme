@@ -1,6 +1,7 @@
 [![](https://billionapps.net/wp-content/uploads/2023/11/BillionApps.svg)](https://billionapps.net/)
 
-## Soure code for AI chatbot
+# conversational chatbot
+The conversational chatbot is a RAG 
 Here is simple chatbot using OpenAI's gpt3.5, built directly in JS.
 Download the folder and open the index.html file to know more about the bot, asking questions relating to BillionApps
 
@@ -32,7 +33,6 @@ OPENAI_API_KEY=
 SENDGRID_API_KEY=
 ```
 
-
 ## Getting started 
 user table needs to be created, so run 
 ```bash
@@ -52,5 +52,7 @@ summary TEXT,
 reqs_asked INTEGER default 0,
 consul_asked INTEGER default 0);
 ```
+
+
 
 
