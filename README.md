@@ -34,3 +34,23 @@ SENDGRID_API_KEY=
 
 
 ## Getting started 
+user table needs to be created, so run 
+```bash
+sqlite3 backend/chat_history.db
+```
+Enter following sql command to create table
+```bash
+CREATE TABLE IF NOT EXISTS "users" (
+session_id TEXT PRIMARY KEY,
+content TEXT,
+name TEXT,
+email TEXT,
+timestamp TEXT,
+count INTEGER default 0,
+category TEXT,
+summary TEXT,
+reqs_asked INTEGER default 0,
+consul_asked INTEGER default 0);
+```
+
+
