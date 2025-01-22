@@ -3,8 +3,8 @@
 # Conversational chatbot [feedback for heading]
 The chatbot is a RAG application that performs call routing to maintain a conversational flow with the user. 
 It's capabilities are as follows:
-- Conversing- Greeting and answering specific questions about the company
-- Requirement gathering- Inquiring about client needs, specifications, and information
+- Conversing- Greets and answers specific questions about the company
+- Requirement gathering- Inquires about client needs, specifications, and information
 - Conversation summarization- Concludes the conversation effectively, and sends a follow up email to the user
 
 ## company_chat_create_db.py:
