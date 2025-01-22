@@ -19,7 +19,7 @@ pip install -r backend/requirements.txt
 > Creates vector DB by reading the contents of the provided company background information, and saves it locally as faiss_company_index
 
 ## app.py:
-- Loads the db created in above step,
-- Receives the user's query and contextualizes it with the chat_history, 
-- Retrives the matching content and sends final query to gpt server
+>- Loads the db created in above step,
+>- Receives the user's query and contextualizes it with the chat_history, 
+>- Retrives the matching content and sends final query to gpt server
 
