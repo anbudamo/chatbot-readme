@@ -17,7 +17,7 @@
   </p>
 </div>
 
-## About
+## About The Project
 The chatbot is a RAG application that performs call routing to maintain a conversational flow with the user. 
 It's capabilities are as follows:
 - Conversing- Greets and answers specific questions about the company
