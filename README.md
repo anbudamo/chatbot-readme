@@ -25,12 +25,6 @@ Features:
 - RAG-Powered Retrieval- Employs FAISS within a RAG framework to deliver accurate, context-based responses
 - Intelligent Workflow Routing- Directs user inputs to tailored workflows, such as consultation, requirement gathering, and summarization
 - Email Notification- Sends conversation summary and follow up info via email 
-
-The chatbot is a RAG application that performs call routing to maintain a conversational flow with the user. 
-It's capabilities are as follows:
-- Conversing- Greets and answers specific questions about the company
-- Requirement gathering- Inquires about client needs, specifications, and information
-- Conversation summarization- Concludes the conversation effectively, and sends a follow up email to the user
   
 ## Getting Started
 
