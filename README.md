@@ -1,7 +1,7 @@
 [![](https://billionapps.net/wp-content/uploads/2023/11/BillionApps.svg)](https://billionapps.net/)
 
 <div align="center">
-  <h3 align="center">Best-README-Template</h3>
+  <h2 align="center">Best-README-Template</h2>
 
   <p align="center">
     An awesome README template to jumpstart your projects!
