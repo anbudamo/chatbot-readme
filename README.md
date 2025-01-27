@@ -4,7 +4,7 @@
   <h3 align="center">Conversational Chatbot</h3>
 
   <p align="center">
-    Get started with BillionApp's AI chatbot and learn about its features!
+    Get started with BillionApp's Conversational Chatbot and learn about its features!
     <br />
     <a href="https://github.com/anbudamo/chatbot-readme/blob/main/README.md"><strong>Explore the docs »</strong></a>
     <br />
