@@ -1,7 +1,7 @@
 [![](https://billionapps.net/wp-content/uploads/2023/11/BillionApps.svg)](https://billionapps.net/)
 
 <div align="center">
-  <h3 align="center">AI Chatbot</h3>
+  <h3 align="center">Conversational Chatbot</h3>
 
   <p align="center">
     Get started with BillionApp's AI chatbot and learn about its features!
