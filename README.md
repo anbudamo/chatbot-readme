@@ -81,7 +81,7 @@ CREATE TABLE IF NOT EXISTS "users" (
     consul_asked INTEGER DEFAULT 0
 );
 ```
-The app can now be run and tested locally by executing the app.py file in the backend folder using ```bash python backend/app.py```
+The app can now be run and tested locally by executing the app.py file in the backend folder using ```python backend/app.py```
 
 ## Learn More
 
