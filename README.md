@@ -48,7 +48,7 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
 ### Set up
-Here is a step by step on how to do further setup
+Here is a step by step on how to set up the Flask backend
 1. Install the needed dependancies in a [virtual environment](https://docs.python.org/3/tutorial/venv.html) by running
 ```bash
 pip install -r backend/requirements.txt
@@ -61,7 +61,27 @@ touch backend/.env
 OPENAI_API_KEY='ENTER YOUR OPENAI_API_KEY'
 SENDGRID_API_KEY='ENTER YOUR SENDGRID_API_KEY'
 ```
-
+3. Set up the users table in the database
+- Open the SQLite shell for the chat_history.db database
+```bash
+sqlite3 backend/chat_history.db
+```
+- Create the users table by executing the following command
+```bash
+CREATE TABLE IF NOT EXISTS "users" (
+    session_id TEXT PRIMARY KEY,
+    content TEXT,
+    name TEXT,
+    email TEXT,
+    timestamp TEXT,
+    count INTEGER DEFAULT 0,
+    category TEXT,
+    summary TEXT,
+    reqs_asked INTEGER DEFAULT 0,
+    consul_asked INTEGER DEFAULT 0
+);
+```
+The app can now be run and tested locally by executing the app.py file in the backend folder using ```bash python backend/app.py```
 
 ## Learn More
 
@@ -77,26 +97,4 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
-
-
-## Getting started 
-user table needs to be created, so run 
-```bash
-sqlite3 backend/chat_history.db
-```
-Enter following sql command to create table
-```bash
-CREATE TABLE IF NOT EXISTS "users" (
-session_id TEXT PRIMARY KEY,
-content TEXT,
-name TEXT,
-email TEXT,
-timestamp TEXT,
-count INTEGER default 0,
-category TEXT,
-summary TEXT,
-reqs_asked INTEGER default 0,
-consul_asked INTEGER default 0);
-```
 
